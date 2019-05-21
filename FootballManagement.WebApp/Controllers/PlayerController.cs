@@ -40,6 +40,8 @@ namespace FootballManagement.WebApp.Controllers
         [HttpPost]
         public ActionResult Create(PlayerViewModel player)
         {
+
+           up
             return View();
         }
 

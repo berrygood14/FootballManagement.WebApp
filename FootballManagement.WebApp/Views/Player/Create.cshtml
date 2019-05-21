@@ -7,7 +7,7 @@
 <h2>Add New Player</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm("Create","Player", FormMethod.Post)) 
 {
     @Html.AntiForgeryToken()
     
