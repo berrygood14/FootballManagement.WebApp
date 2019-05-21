@@ -8,6 +8,10 @@ namespace FootballManagement.WebApp.Controllers
     public class PlayerController : Controller
     {                
 
+        /// <summary>
+        /// Loads the index page. This shows a list of players
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
 
@@ -17,5 +21,27 @@ namespace FootballManagement.WebApp.Controllers
 
             return View(playlist);
         }
+
+        /// <summary>
+        /// This takes you to the create page
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        /// <summary>
+        /// This attempts to add a new player
+        /// </summary>
+        /// <param name="player"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult Create(PlayerViewModel player)
+        {
+            return View();
+        }
+
     }
 }
