@@ -5,12 +5,6 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManagement.WebApp", "FootballManagement.WebApp\FootballManagement.WebApp.csproj", "{E87C3DFB-106A-42ED-88FE-41B995A45D02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManagement.Logic", "FootballManagement.Logic\FootballManagement.Logic.csproj", "{2B9441BC-13B9-4352-BCD2-24C02A84455F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManagement.DataLayer", "FootballManagement.DataLayer\FootballManagement.DataLayer.csproj", "{4F485F32-C168-48B7-B681-5743463EB2F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManagement.Datalayer.UnitTests", "FootballManagement.Datalayer.UnitTests\FootballManagement.Datalayer.UnitTests.csproj", "{2AF04560-F543-49F4-9A9F-CAB2592F9C30}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,18 +15,6 @@ Global
 		{E87C3DFB-106A-42ED-88FE-41B995A45D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E87C3DFB-106A-42ED-88FE-41B995A45D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E87C3DFB-106A-42ED-88FE-41B995A45D02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B9441BC-13B9-4352-BCD2-24C02A84455F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B9441BC-13B9-4352-BCD2-24C02A84455F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B9441BC-13B9-4352-BCD2-24C02A84455F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B9441BC-13B9-4352-BCD2-24C02A84455F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F485F32-C168-48B7-B681-5743463EB2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F485F32-C168-48B7-B681-5743463EB2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F485F32-C168-48B7-B681-5743463EB2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F485F32-C168-48B7-B681-5743463EB2F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AF04560-F543-49F4-9A9F-CAB2592F9C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AF04560-F543-49F4-9A9F-CAB2592F9C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AF04560-F543-49F4-9A9F-CAB2592F9C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AF04560-F543-49F4-9A9F-CAB2592F9C30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

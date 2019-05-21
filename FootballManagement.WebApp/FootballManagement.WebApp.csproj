@@ -178,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Mapper\" />
     <Folder Include="Views\Player\" />
   </ItemGroup>
   <ItemGroup>
@@ -192,12 +193,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FootballManagement.Logic\FootballManagement.Logic.csproj">
-      <Project>{2b9441bc-13b9-4352-bcd2-24c02a84455f}</Project>
-      <Name>FootballManagement.Logic</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

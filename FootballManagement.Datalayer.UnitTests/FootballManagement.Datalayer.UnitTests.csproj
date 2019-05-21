@@ -56,13 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FootballManagement.DataLayer\FootballManagement.DataLayer.csproj">
-      <Project>{4F485F32-C168-48B7-B681-5743463EB2F5}</Project>
-      <Name>FootballManagement.DataLayer</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FootballManagement.Logic\FootballManagement.Logic.csproj">
+    <ProjectReference Include="..\FootballManagement.Logic\FootballManagement.Domain.csproj">
       <Project>{2b9441bc-13b9-4352-bcd2-24c02a84455f}</Project>
-      <Name>FootballManagement.Logic</Name>
+      <Name>FootballManagement.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
