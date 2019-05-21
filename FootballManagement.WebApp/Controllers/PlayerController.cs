@@ -33,7 +33,7 @@ namespace FootballManagement.WebApp.Controllers
         }
 
         /// <summary>
-        /// This attempts to add a new player
+        /// This adds a new player
         /// </summary>
         /// <param name="player"></param>
         /// <returns></returns>
